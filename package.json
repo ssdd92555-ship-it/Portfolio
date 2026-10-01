@@ -1,0 +1,15 @@
+{
+  "name": "opera-portfolio",
+  "version": "3.0.0",
+  "scripts": {
+    "build": "tsc -p config/tsconfig.json",
+    "watch": "tsc -p config/tsconfig.json -w",
+    "start": "node --no-warnings server/serve.ts",
+    "db:test": "node --no-warnings server/db.test.ts && node --no-warnings server/features.test.ts",
+    "db:init": "node --no-warnings server/init.ts",
+    "dev": "node --no-warnings server/serve.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
