@@ -10,6 +10,6 @@
     "dev": "node --no-warnings server/serve.ts"
   },
   "devDependencies": {
-    "typescript": "^5.5.0"
+    "typescript": "^5.9.3"
   }
 }
